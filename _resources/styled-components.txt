@@ -1,0 +1,2 @@
+To Install Styled Components Modules:
+1. npm install styled-components@5
