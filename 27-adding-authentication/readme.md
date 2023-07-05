@@ -1,6 +1,7 @@
 # Project Setup
 
-Install dependencies for backend:
+## Open First Terminal
+Install backend dependencies:
 ```
 cd backend
 npm install
@@ -10,7 +11,8 @@ Start backend dev server:
 npm start
 ```
 
-Install dependencies for frontend:
+## Open Second Terminal
+Install frontend dependencies:
 ```
 cd frontend
 npm install
