@@ -14,7 +14,7 @@ Build for production:
 npm run build
 ```
 
-## React Application Links - Deployed to Netlify
+## Deployed React Application to Netlify
 * [Expense Tracker Application](https://cosmic-chebakia-644d50.netlify.app)
 * [Course Goal Application](https://cosmic-chebakia-644d50.netlify.app)
 
