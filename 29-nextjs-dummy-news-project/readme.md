@@ -14,3 +14,7 @@ To build for production:
 ```
 npm run build
 ```
+Run build:
+```
+npm start
+```
