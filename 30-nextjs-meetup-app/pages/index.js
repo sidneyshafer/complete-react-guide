@@ -19,22 +19,10 @@ function HomePage(props) {
   );
 }
 
-// export async function getServerSideProps(context) {
-//   const req = context.req;
-//   const res = context.res;
-
-//   // fetch data from API
-//   return {
-//     props: {
-//       meetups: DUMMY_MEETUPS,
-//     },
-//   };
-// }
-
 export async function getStaticProps() {
   // fetch data from API
   const client = await MongoClient.connect(
-    'mongodb+srv://sidneyshafer01:Donuts@cluster0.lotycw9.mongodb.net/meetups?retryWrites=true&w=majority'
+    '[YOUR_MONGO_DB_URI]'
   );
   const db = client.db();
 
