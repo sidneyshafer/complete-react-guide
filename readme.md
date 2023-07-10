@@ -1,7 +1,7 @@
 # The Complete React Guide
 
-## Usage - for each project (EXCLUDING Next.js applications)
-Install dependencies in terminal:
+## Usage for each React project (EXCLUDING Next.js applications)
+Install dependencies:
 ```
 npm install
 ```
