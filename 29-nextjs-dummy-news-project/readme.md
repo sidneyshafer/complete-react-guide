@@ -1,5 +1,5 @@
-# Next.js Dummy News Project
-A Next.js project for displaying dummy news articles.
+# Dummy News Project
+A React and Next.js project for displaying dummy news articles.
 
 ## Usage
 Install dependencies:
