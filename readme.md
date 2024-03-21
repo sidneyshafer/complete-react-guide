@@ -16,5 +16,3 @@ npm run build
 
 ## Deployed React Applications
 * [Expense Tracker Application](https://cosmic-chebakia-644d50.netlify.app)
-* [Course Goal Application](https://cosmic-chebakia-644d50.netlify.app)
-
