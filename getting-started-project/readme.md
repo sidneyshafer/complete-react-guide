@@ -11,9 +11,11 @@
 ### <a name="getting-started-ui">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/getting-started-project-assets/ui-1.png)
 
 `Delete` button click modal page:
+
 ![UI Image - 2](/assets/getting-started-project-assets/ui-2.png)
 
 ### <a name="getting-started-file-structure">File Structure</a>

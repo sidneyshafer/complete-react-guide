@@ -7,12 +7,15 @@
 ### ### <a name="course-goal-ui">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/course-goal-project-assets/ui-1.png)
 
 Adding a new course goal:
+
 ![UI Image - 2](/assets/course-goal-project-assets/ui-2.png)
 
 New course goal added to list:
+
 ![UI Image - 3](/assets/course-goal-project-assets/ui-3.png)
 
 ## <a name="course-goal-file-structure">File Structure</a>

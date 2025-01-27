@@ -7,12 +7,15 @@
 ### <a name="login-page-user-interface">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/login-page-ui-assets/ui-1.png)
 
 Invalid email input:
+
 ![UI Image - 2](/assets/login-page-ui-assets/ui-2.png)
 
 Valid email input:
+
 ![UI Image - 3](/assets/login-page-ui-assets/ui-3.png)
 
 ### <a name="login-page-file-structure">File Structure</a>

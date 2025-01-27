@@ -245,9 +245,11 @@ export default MyClassComponent;
 ### <a name="getting-started-ui">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/getting-started-project-assets/ui-1.png)
 
 `Delete` button click modal page:
+
 ![UI Image - 2](/assets/getting-started-project-assets/ui-2.png)
 
 ### <a name="getting-started-file-structure">File Structure</a>
@@ -484,12 +486,15 @@ export default App;
 ### <a name="expense-tracker-user-interface">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/expense-tracker-project-assets/ui-1.png)
 
 Adding a new expense:
+
 ![UI Image - 2](/assets/expense-tracker-project-assets/ui-2.png)
 
 New expense added to expense list:
+
 ![UI Image - 3](/assets/expense-tracker-project-assets/ui-3.png)
 
 ### <a name="expense-tracker-file-structure">File Structure</a>
@@ -541,12 +546,15 @@ expense-tracker-project/
 ### ### <a name="course-goal-ui">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/course-goal-project-assets/ui-1.png)
 
 Adding a new course goal:
+
 ![UI Image - 2](/assets/course-goal-project-assets/ui-2.png)
 
 New course goal added to list:
+
 ![UI Image - 3](/assets/course-goal-project-assets/ui-3.png)
 
 ## <a name="course-goal-file-structure">File Structure</a>
@@ -597,12 +605,15 @@ course-goal-project/
 ### <a name="add-user-ui">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/add-user-project-assets/ui-1.png)
 
 Adding a new user:
+
 ![UI Image - 2](/assets/add-user-project-assets/ui-2.png)
 
 New user added to list of users:
+
 ![UI Image - 3](/assets/add-user-project-assets/ui-3.png)
 
 ### <a name="add-user-file-structure">File Structure</a>
@@ -649,12 +660,15 @@ add-user-project/
 ### <a name="login-page-user-interface">User Interface</a>
 
 Main landing page:
+
 ![UI Image - 1](/assets/login-page-ui-assets/ui-1.png)
 
 Invalid email input:
+
 ![UI Image - 2](/assets/login-page-ui-assets/ui-2.png)
 
 Valid email input:
+
 ![UI Image - 3](/assets/login-page-ui-assets/ui-3.png)
 
 ### <a name="login-page-file-structure">File Structure</a>
