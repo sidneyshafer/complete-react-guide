@@ -1,18 +1,22 @@
 ## Getting Started Project
 >Getting started with React apps - a simple first project.
 
-* [User Interface](#user-interface)
-* [File Structure](#file-structure)
-* [Code Breakdown](#code-breakdown)
+* [User Interface](#getting-started-ui)
+* [File Structure](#getting-started-file-structure)
+* [Full Code Breakdown](#getting-started-code-breakdown)
 
-### User Interface
+> [!NOTE]
+> All examples in this section can be found in project :file_folder: [getting-started-project](/getting-started-project)
+
+### <a name="getting-started-ui">User Interface</a>
+
 Main landing page:
-![UI Image - 1](/assets/02-getting-started-assets/ui-1.png)
+![UI Image - 1](/assets/getting-started-project-assets/ui-1.png)
 
 `Delete` button click modal page:
-![UI Image - 2](/assets/02-getting-started-assets/ui-2.png)
+![UI Image - 2](/assets/getting-started-project-assets/ui-2.png)
 
-### File Structure
+### <a name="getting-started-file-structure">File Structure</a>
 ```
 getting-started-project/
 ├── public/
@@ -33,7 +37,7 @@ getting-started-project/
 ├── readme.md
 ```
 
-### Code Breakdown
+### <a name="getting-started-code-breakdown">Full Code Breakdown</a>
 
 > [!NOTE]
 > This section does not cover all specific code blocks in `index.js` and `App.js`. For information on code in these files that is not covered, check out the [Base React project](/00-base-react) documentation.
@@ -121,8 +125,9 @@ export default Todo;
     * `Backdrop` displayed - clicking it calls `closeModalHandler` to hide the modal. 
     * `Modal` displayed, asking the user for confirmation. Clicking either "Cancel" or "Confirm" also calls `closeModalHandler`.
 
+
 > [!TIP]
-> Check out the [State Management](/state-management) section for more information on state in React applications.
+> Check out the [State Management](/state-management/readme.md) section for more information on state in React applications.
 
 ---
 **The `App.js` File:**
@@ -146,3 +151,4 @@ export default App;
 * Renders the title "React Todo List" and a three `Todo` components.
 
 <kbd> <br> [Back to Top](#getting-started-project) <br> </kbd>
+---

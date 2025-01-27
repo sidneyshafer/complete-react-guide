@@ -112,27 +112,7 @@ In summary, the `App.js` component:
 2. Renders an HTML structure using JSX.
 3. Is exported for use as the root component of the app.
 
-### App Usage
-Install dependencies:
-```
-npm install
-```
-
-Run dev server:
-```
-npm start
-```
-
-Build for production:
-```
-npm run build
-```
-
-Check for dependency updates:
-```
-npm i -g npm-check-updates
-ncu -u
-npm install
-```
+> [!TIP]
+> Check out the React [app usage documentation](/react-app-usage.md) for information on basic app usage in this project.
 
 <kbd> <br> [Back to Top](#base-react-app) <br> </kbd>

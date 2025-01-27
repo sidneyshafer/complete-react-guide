@@ -2,6 +2,7 @@
 
 # Table of Contents
 * [Base React App](#base-react-app)
+* [React App Usage](#react-app-usage)
 * [React Component Types](#react-component-types)
   * [Functional Components](#function-components)
   * [Class Components](#class-components)
@@ -9,6 +10,8 @@
 * [State Management](#state-management)
 * [Expense Tracker Project](#expense-tracker-project)
 * [Course Goal Project](#course-goal-project)
+* [Add User Project](#add-user-project)
+* [Login Page UI](#login-page-ui)
 
 
 ## Base React App
@@ -16,7 +19,6 @@
 
 * [File Structure](#file-structure)
 * [Code Breakdown](#code-breakdown)
-* [App Usage](#app-usage)
 
 > [!NOTE]
 > All examples in this section can be found in project :file_folder: [base-react-app](/base-react-app)
@@ -128,28 +130,16 @@ In summary, the `App.js` component:
 2. Renders an HTML structure using JSX.
 3. Is exported for use as the root component of the app.
 
-### App Usage
-Install dependencies:
-```
-npm install
-```
+> [!TIP]
+> Check out the React [app usage documentation](/react-app-usage.md) for information on basic app usage in this project.
 
-Run dev server:
-```
-npm start
-```
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
+---
 
-Build for production:
-```
-npm run build
-```
+## React App Usage
 
-Check for dependency updates:
-```
-npm i -g npm-check-updates
-ncu -u
-npm install
-```
+Usage for setting up, installing, and managing the React app environment and dependencies is outlined in the React App Usage [documentation](/react-app-usage.md). 
+
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
@@ -584,6 +574,122 @@ course-goal-project/
     |   |   |   ├── Button.js
     |   |   |   ├── Button.module.css
     ├── App.css
+    ├── App.js
+    ├── index.css
+    ├── index.js
+├── .gitignore
+├── package.json
+├── readme.md
+```
+
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
+---
+
+## Add User Project
+>React app for adding users to a list.
+
+* [User Interface](#add-user-ui)
+* [File Structure](#add-user-file-structure)
+
+> [!NOTE]
+> All examples in this section can be found in project :file_folder: [add-user-project](/add-user-project)
+
+### <a name="add-user-ui">User Interface</a>
+
+Main landing page:
+![UI Image - 1](/assets/add-user-project-assets/ui-1.png)
+
+Adding a new user:
+![UI Image - 2](/assets/add-user-project-assets/ui-2.png)
+
+New user added to list of users:
+![UI Image - 3](/assets/add-user-project-assets/ui-3.png)
+
+### <a name="add-user-file-structure">File Structure</a>
+```
+add-user-project/
+├── public/
+    ├── index.html
+    ├── favicon.ico
+    ├── manifest.json
+    └── robots.txt
+├── src/
+    ├── components/
+    |   ├── Helpers/
+    |   |   ├── Wrapper.js
+    |   ├── UI/
+    |   |   ├── Button.js
+    |   |   ├── Button.module.css
+    |   |   ├── Card.js
+    |   |   ├── Card.module.css
+    |   |   ├── ErrorModal.js
+    |   |   ├── ErrorModal.module.css
+    |   ├── Users/
+    |   |   ├── AddUser.js
+    |   |   ├── AddUser.module.css
+    |   |   ├── UsersList.js
+    |   |   ├── UsersList.module.css
+    ├── App.js
+    ├── index.css
+    ├── index.js
+├── .gitignore
+├── package.json
+├── readme.md
+```
+
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
+---
+
+## Login Page UI
+>React app for displaying a login page and performing authentication check on login information.
+
+* [User Interface](#login-page-user-interface)
+* [File Structure](#login-page-file-structure)
+
+### <a name="login-page-user-interface">User Interface</a>
+
+Main landing page:
+![UI Image - 1](/assets/login-page-ui-assets/ui-1.png)
+
+Invalid email input:
+![UI Image - 2](/assets/login-page-ui-assets/ui-2.png)
+
+Valid email input:
+![UI Image - 3](/assets/login-page-ui-assets/ui-3.png)
+
+### <a name="login-page-file-structure">File Structure</a>
+```
+login-page-ui/
+├── public/
+    ├── index.html
+    ├── favicon.ico
+    ├── manifest.json
+    └── robots.txt
+├── src/
+    ├── components/
+    |   ├── Home/
+    |   |   ├── Home.js
+    |   |   ├── Home.module.css
+    |   ├── Login/
+    |   |   ├── Login.js
+    |   |   ├── Login.module.css
+    |   ├── MainHeader/
+    |   |   ├── MainHeader.js
+    |   |   ├── MainHeader.module.css
+    |   |   ├── Navigation.js
+    |   |   ├── Navigation.module.css
+    |   ├── UI/
+    |   |   ├── Button/
+    |   |   |   ├── Button.js
+    |   |   |   ├── Button.module.css
+    |   |   ├── Card/
+    |   |   |   ├── Card.js
+    |   |   |   ├── Card.module.css
+    |   |   ├── Input/
+    |   |   |   ├── Input.js
+    |   |   |   ├── Input.module.css
+    ├── context/
+    |   |   ├── auth-context.js
     ├── App.js
     ├── index.css
     ├── index.js

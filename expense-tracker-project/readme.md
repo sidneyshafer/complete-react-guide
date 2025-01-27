@@ -1,10 +1,10 @@
 ## Expense Tracker Project
 >React app for keeping track of expenses.
 
-* [User Interface](#user-interface)
-* [File Structure](#file-structure)
+* [User Interface](#expense-tracker-user-interface)
+* [File Structure](#expense-tracker-file-structure)
 
-### User Interface
+### <a name="expense-tracker-user-interface">User Interface</a>
 
 Main landing page:
 ![UI Image - 1](/assets/expense-tracker-project-assets/ui-1.png)
@@ -15,7 +15,7 @@ Adding a new expense:
 New expense added to expense list:
 ![UI Image - 3](/assets/expense-tracker-project-assets/ui-3.png)
 
-### File Structure
+### <a name="expense-tracker-file-structure">File Structure</a>
 ```
 expense-tracker-project/
 ├── public/
@@ -48,3 +48,6 @@ expense-tracker-project/
 ├── package.json
 ├── readme.md
 ```
+
+<kbd> <br> [Back to Top](#expense-tracker-project) <br> </kbd>
+---

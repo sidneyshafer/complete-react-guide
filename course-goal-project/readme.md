@@ -1,10 +1,10 @@
 ## Course Goal Project
 >React app for adding course goals to a list.
 
-* [User Interface](#user-interface)
-* [File Structure](#file-structure)
+* [User Interface](#course-goal-ui)
+* [File Structure](#course-goal-file-structure)
 
-### User Interface
+### ### <a name="course-goal-ui">User Interface</a>
 
 Main landing page:
 ![UI Image - 1](/assets/course-goal-project-assets/ui-1.png)
@@ -15,7 +15,7 @@ Adding a new course goal:
 New course goal added to list:
 ![UI Image - 3](/assets/course-goal-project-assets/ui-3.png)
 
-## File Structure
+## <a name="course-goal-file-structure">File Structure</a>
 ```
 course-goal-project/
 ├── public/
@@ -47,3 +47,6 @@ course-goal-project/
 ├── package.json
 ├── readme.md
 ```
+
+<kbd> <br> [Back to Top](#course-goal-project) <br> </kbd>
+---
