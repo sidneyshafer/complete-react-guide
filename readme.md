@@ -9,7 +9,7 @@
   * [Class Components](#class-components)
 * [Introduction Project](#introduction-project)
 * [State Management](#state-management)
-* [Performance Optimization]()
+* [Performance Optimization](#performance-optimization)
 * [All React Demo Projects](#all-react-demo-projects)
 
 ---
