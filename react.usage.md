@@ -1,5 +1,5 @@
 ## React App Usage
->Includes all React apps - excludes Next.js apps
+>Includes all React apps
 
 Creating a new React app:
 ```
