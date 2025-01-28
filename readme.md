@@ -597,6 +597,9 @@ export default App;
 * [Basic Syntax of React.memo](#performance-optimization-basic-syntax-of-reactmemo)
 * [Project Structure](#performance-optimization-project-structure)
 
+> [!NOTE]
+> All examples in this section can be found in project :file_folder: [usememo-demo](/usememo-demo)
+
 ### <a name="performance-optimization-overview">Overview</a>
 
 #### useMemo
