@@ -477,6 +477,7 @@ export default App;
 | Key React Concepts | UI for displaying key React concepts | [:link::file_folder:](/key-react-concepts) |
 | Course Goal | Adding course goals to a list | [:link::file_folder:](/course-goal) |
 | Add User | Adding users to a list | [:link::file_folder:](/add-user) |
+| Investment Calculator | Calculating and displaying investments | [:link::file_folder:](/investment-calculator) |
 | Expense Tracker | App for keeping track of expenses | [:link::file_folder:](/expense-tracker) |
 | Login Page UI | Displaying a login page and performing validation on user input | [:link::file_folder:](/login-page-ui) |
 
