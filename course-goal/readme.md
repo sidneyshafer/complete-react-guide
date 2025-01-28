@@ -4,7 +4,7 @@
 * [User Interface](#course-goal-ui)
 * [File Structure](#course-goal-file-structure)
 
-### ### <a name="course-goal-ui">User Interface</a>
+### <a name="course-goal-ui">User Interface</a>
 
 Main landing page:
 
@@ -18,7 +18,7 @@ New course goal added to list:
 
 ![UI Image - 3](./src/assets/images/ui-3.png)
 
-## <a name="course-goal-file-structure">File Structure</a>
+### <a name="course-goal-file-structure">File Structure</a>
 ```
 course-goal-project/
 ├── public/
