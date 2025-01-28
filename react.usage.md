@@ -1,6 +1,11 @@
 ## React App Usage
 >Includes all React apps - excludes Next.js apps
 
+Creating a new React app:
+```
+npx create-react-app project-name
+```
+
 Install dependencies:
 ```
 npm install

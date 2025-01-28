@@ -113,6 +113,6 @@ In summary, the `App.js` component:
 3. Is exported for use as the root component of the app.
 
 > [!TIP]
-> Check out the React [app usage documentation](/react-app-usage.md) for information on basic app usage in this project.
+> Check out the React [app usage documentation](/react.usage.md) for information on basic app usage in this project.
 
 <kbd> <br> [Back to Top](#base-react-app) <br> </kbd>
