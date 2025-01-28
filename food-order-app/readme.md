@@ -8,11 +8,11 @@
 
 Main landing page, with a food menu and items to choose from (adding to cart):
 
-![UI Image - 1](./src/assets/ui-1.png)
+![UI Image - 1](./src/assets/images/ui-1.png)
 
 Food cart modal overlay:
 
-![UI Image - 2](./src/assets/ui-2.png)
+![UI Image - 2](./src/assets/images/ui-2.png)
 
 ### <a name="food-order-app-file-structure">File Structure</a>
 ```
