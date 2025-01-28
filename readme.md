@@ -474,11 +474,11 @@ export default App;
 ## All React Demo Projects
 | Project                 | Description             | Link    |
 | ----------------------- | ----------------------- | ------- |
-| Key React Concepts | React app UI for displaying some key React concepts | [:link: :file_folder:](/key-react-concepts) |
-| Course Goal | React app for adding course goals to a list | [:link: :file_folder:](/course-goal) |
-| Add User | React app for adding users to a list | [:link: :file_folder:](/add-user) |
-| Expense Tracker | React app for keeping track of expenses | [:link: :file_folder:](/expense-tracker) |
-| Login Page UI | React app for displaying a login page and performing validation check on login information| [:link: :file_folder:](/login-page-ui) |
+| Key React Concepts | UI for displaying key React concepts | [:link::file_folder:](/key-react-concepts) |
+| Course Goal | Adding course goals to a list | [:link::file_folder:](/course-goal) |
+| Add User | Adding users to a list | [:link::file_folder:](/add-user) |
+| Expense Tracker | App for keeping track of expenses | [:link::file_folder:](/expense-tracker) |
+| Login Page UI | Displaying a login page and performing validation on user input | [:link::file_folder:](/login-page-ui) |
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
