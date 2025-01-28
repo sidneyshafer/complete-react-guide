@@ -5,11 +5,12 @@
 }
 
 html {
+  overflow-y: scroll;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: #2f3e46;
 }
 

@@ -593,6 +593,7 @@ export default App;
 | Investment Calculator | Calculating and displaying investments | [:link::file_folder:](/investment-calculator) |
 | Expense Tracker | App for keeping track of expenses | [:link::file_folder:](/expense-tracker) |
 | Login Page UI | Displaying a login page and performing validation on user input | [:link::file_folder:](/login-page-ui) |
+| Food Order App | Adding menu items to an online food order cart | [:link::file_folder:](/food-order-app) |
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
