@@ -8,15 +8,15 @@
 
 Main landing page:
 
-![UI Image - 1](/assets/expense-tracker-project-assets/ui-1.png)
+![UI Image - 1](./src/assets/images/ui-1.png)
 
 Adding a new expense:
 
-![UI Image - 2](/assets/expense-tracker-project-assets/ui-2.png)
+![UI Image - 2](./src/assets/images/ui-2.png)
 
 New expense added to expense list:
 
-![UI Image - 3](/assets/expense-tracker-project-assets/ui-3.png)
+![UI Image - 3](./src/assets/images/ui-1.png)
 
 ### <a name="expense-tracker-file-structure">File Structure</a>
 ```
@@ -27,6 +27,11 @@ expense-tracker-project/
     ├── manifest.json
     └── robots.txt
 ├── src/
+    ├── assets/
+    |   ├── images/
+    |   |   ├── ui-1.png
+    |   |   ├── ui-2.png
+    |   |   ├── ui-3.png
     ├── components/
     |   ├── Expenses/
     |   |   ├── ExpenseDate.css

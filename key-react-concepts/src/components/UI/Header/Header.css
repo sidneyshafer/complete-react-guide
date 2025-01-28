@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    margin: 3rem 0;
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 100%;
+    margin-top: 5rem;
+}
+
+header img {
+    width: 7%;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+/* header p {
+    margin: 1rem;
+    font-size: 1.25rem;
+    color: #f4f4f4;
+    font-family: "Roboto Condensed", sans-serif;
+} */

@@ -1,4 +1,4 @@
->Complete guide to building applications with React.
+>Complete guide to building applications in React.
 
 # Table of Contents
 * [Base React App](#base-react-app)
@@ -6,13 +6,9 @@
 * [React Component Types](#react-component-types)
   * [Functional Components](#function-components)
   * [Class Components](#class-components)
-* [Getting Started Project](#getting-started-project)
+* [Introduction Project](#introduction-project)
 * [State Management](#state-management)
-* [Expense Tracker Project](#expense-tracker-project)
-* [Course Goal Project](#course-goal-project)
-* [Add User Project](#add-user-project)
-* [Login Page UI](#login-page-ui)
-
+* [All React Demo Projects](#all-react-demo-projects)
 
 ## Base React App
 >Basic React application used as the base structure for all projects in this guide.
@@ -232,35 +228,36 @@ export default MyClassComponent;
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
-## Getting Started Project
->Getting started with React apps - a simple first project.
+## Introduction Project
+>Intro to getting started with React apps - a simple first project.
 
-* [User Interface](#getting-started-ui)
-* [File Structure](#getting-started-file-structure)
-* [Full Code Breakdown](#getting-started-code-breakdown)
+* [User Interface](#introduction-ui)
+* [File Structure](#introduction-file-structure)
+* [Full Code Breakdown](#introduction-code-breakdown)
 
-> [!NOTE]
-> All examples in this section can be found in project :file_folder: [getting-started-project](/getting-started-project)
-
-### <a name="getting-started-ui">User Interface</a>
+### <a name="introduction-ui">User Interface</a>
 
 Main landing page:
 
-![UI Image - 1](/assets/getting-started-project-assets/ui-1.png)
+![UI Image - 1](/introduction-project/src/assets/images/ui-1.png)
 
 `Delete` button click modal page:
 
-![UI Image - 2](/assets/getting-started-project-assets/ui-2.png)
+![UI Image - 2](/introduction-project/src/assets/images/ui-2.png)
 
-### <a name="getting-started-file-structure">File Structure</a>
+### <a name="introduction-file-structure">File Structure</a>
 ```
-getting-started-project/
+introduction-project/
 ├── public/
     ├── index.html
     ├── favicon.ico
     ├── manifest.json
     └── robots.txt
 ├── src/
+    ├── assets/
+    |   ├── images/
+    |   |   ├── ui-1.png
+    |   |   ├── ui-2.png
     ├── components/
     |   ├── Backdrop.js
     |   ├── Modal.js
@@ -273,7 +270,7 @@ getting-started-project/
 ├── readme.md
 ```
 
-### <a name="getting-started-code-breakdown">Full Code Breakdown</a>
+### <a name="introduction-code-breakdown">Full Code Breakdown</a>
 
 > [!NOTE]
 > This section does not cover all specific code blocks in `index.js` and `App.js`. For information on code in these files that is not covered, check out the [Base React project](/00-base-react) documentation.
@@ -363,7 +360,7 @@ export default Todo;
 
 
 > [!TIP]
-> Check out the [State Management](#state-management) section for more information on state in React applications.
+> Check out the [State Management](/state-management/readme.md) section for more information on state in React applications.
 
 ---
 **The `App.js` File:**
@@ -474,243 +471,14 @@ export default App;
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
-## Expense Tracker Project
->React app for keeping track of expenses.
-
-* [User Interface](#expense-tracker-user-interface)
-* [File Structure](#expense-tracker-file-structure)
-
-> [!NOTE]
-> All examples in this section can be found in project :file_folder: [expense-tracker-project](/expense-tracker-project)
-
-### <a name="expense-tracker-user-interface">User Interface</a>
-
-Main landing page:
-
-![UI Image - 1](/assets/expense-tracker-project-assets/ui-1.png)
-
-Adding a new expense:
-
-![UI Image - 2](/assets/expense-tracker-project-assets/ui-2.png)
-
-New expense added to expense list:
-
-![UI Image - 3](/assets/expense-tracker-project-assets/ui-3.png)
-
-### <a name="expense-tracker-file-structure">File Structure</a>
-```
-expense-tracker-project/
-├── public/
-    ├── index.html
-    ├── favicon.ico
-    ├── manifest.json
-    └── robots.txt
-├── src/
-    ├── components/
-    |   ├── Expenses/
-    |   |   ├── ExpenseDate.css
-    |   |   ├── ExpenseDate.js
-    |   |   ├── ExpenseItem.css
-    |   |   ├── ExpenseItem.js
-    |   |   ├── Expenses.css
-    |   |   ├── Expenses.js
-    |   |   ├── ExpensesFilter.css
-    |   |   ├── ExpensesFilter.js
-    |   |   ├── ExpensesList.css
-    |   |   ├── ExpensesList.css
-    |   ├── NewExpense/
-    |   |   ├── ExpenseForm.css
-    |   |   ├── ExpenseForm.js
-    |   |   ├── NewExpense.css
-    |   |   ├── NewExpense.js
-    ├── App.js
-    ├── index.css
-    ├── index.js
-├── .gitignore
-├── package.json
-├── readme.md
-```
-
-<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
----
-
-## Course Goal Project
->React app for adding course goals to a list.
-
-* [User Interface](#course-goal-ui)
-* [File Structure](#course-goal-file-structure)
-
-> [!NOTE]
-> All examples in this section can be found in project :file_folder: [course-goal-project](/course-goal-project)
-
-### ### <a name="course-goal-ui">User Interface</a>
-
-Main landing page:
-
-![UI Image - 1](/assets/course-goal-project-assets/ui-1.png)
-
-Adding a new course goal:
-
-![UI Image - 2](/assets/course-goal-project-assets/ui-2.png)
-
-New course goal added to list:
-
-![UI Image - 3](/assets/course-goal-project-assets/ui-3.png)
-
-## <a name="course-goal-file-structure">File Structure</a>
-```
-course-goal-project/
-├── public/
-    ├── index.html
-    ├── favicon.ico
-    ├── manifest.json
-    └── robots.txt
-├── src/
-    ├── components/
-    |   ├── CourseGoals/
-    |   |   ├── CourseGoalItem/
-    |   |   |   ├── CourseGoalItem.css
-    |   |   |   ├── CourseGoalItem.js
-    |   |   ├── CourseGoalList/
-    |   |   |   ├── CourseGoalList.css
-    |   |   |   ├── CourseGoalList.js
-    |   |   ├── CourseGoalInput/
-    |   |   |   ├── CourseInput.js
-    |   |   |   ├── CourseInput.module.css
-    |   ├── UI/
-    |   |   ├── Button/
-    |   |   |   ├── Button.js
-    |   |   |   ├── Button.module.css
-    ├── App.css
-    ├── App.js
-    ├── index.css
-    ├── index.js
-├── .gitignore
-├── package.json
-├── readme.md
-```
-
-<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
----
-
-## Add User Project
->React app for adding users to a list.
-
-* [User Interface](#add-user-ui)
-* [File Structure](#add-user-file-structure)
-
-> [!NOTE]
-> All examples in this section can be found in project :file_folder: [add-user-project](/add-user-project)
-
-### <a name="add-user-ui">User Interface</a>
-
-Main landing page:
-
-![UI Image - 1](/assets/add-user-project-assets/ui-1.png)
-
-Adding a new user:
-
-![UI Image - 2](/assets/add-user-project-assets/ui-2.png)
-
-New user added to list of users:
-
-![UI Image - 3](/assets/add-user-project-assets/ui-3.png)
-
-### <a name="add-user-file-structure">File Structure</a>
-```
-add-user-project/
-├── public/
-    ├── index.html
-    ├── favicon.ico
-    ├── manifest.json
-    └── robots.txt
-├── src/
-    ├── components/
-    |   ├── Helpers/
-    |   |   ├── Wrapper.js
-    |   ├── UI/
-    |   |   ├── Button.js
-    |   |   ├── Button.module.css
-    |   |   ├── Card.js
-    |   |   ├── Card.module.css
-    |   |   ├── ErrorModal.js
-    |   |   ├── ErrorModal.module.css
-    |   ├── Users/
-    |   |   ├── AddUser.js
-    |   |   ├── AddUser.module.css
-    |   |   ├── UsersList.js
-    |   |   ├── UsersList.module.css
-    ├── App.js
-    ├── index.css
-    ├── index.js
-├── .gitignore
-├── package.json
-├── readme.md
-```
-
-<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
----
-
-## Login Page UI
->React app for displaying a login page and performing authentication check on login information.
-
-* [User Interface](#login-page-user-interface)
-* [File Structure](#login-page-file-structure)
-
-### <a name="login-page-user-interface">User Interface</a>
-
-Main landing page:
-
-![UI Image - 1](/assets/login-page-ui-assets/ui-1.png)
-
-Invalid email input:
-
-![UI Image - 2](/assets/login-page-ui-assets/ui-2.png)
-
-Valid email input:
-
-![UI Image - 3](/assets/login-page-ui-assets/ui-3.png)
-
-### <a name="login-page-file-structure">File Structure</a>
-```
-login-page-ui/
-├── public/
-    ├── index.html
-    ├── favicon.ico
-    ├── manifest.json
-    └── robots.txt
-├── src/
-    ├── components/
-    |   ├── Home/
-    |   |   ├── Home.js
-    |   |   ├── Home.module.css
-    |   ├── Login/
-    |   |   ├── Login.js
-    |   |   ├── Login.module.css
-    |   ├── MainHeader/
-    |   |   ├── MainHeader.js
-    |   |   ├── MainHeader.module.css
-    |   |   ├── Navigation.js
-    |   |   ├── Navigation.module.css
-    |   ├── UI/
-    |   |   ├── Button/
-    |   |   |   ├── Button.js
-    |   |   |   ├── Button.module.css
-    |   |   ├── Card/
-    |   |   |   ├── Card.js
-    |   |   |   ├── Card.module.css
-    |   |   ├── Input/
-    |   |   |   ├── Input.js
-    |   |   |   ├── Input.module.css
-    ├── context/
-    |   |   ├── auth-context.js
-    ├── App.js
-    ├── index.css
-    ├── index.js
-├── .gitignore
-├── package.json
-├── readme.md
-```
+## All React Demo Projects
+| Project                 | Description             | Link    |
+| ----------------------- | ----------------------- | ------- |
+| Key React Concepts | React app UI for displaying some key React concepts | [:link: :file_folder:](/key-react-concepts) |
+| Course Goal | React app for adding course goals to a list | [:link: :file_folder:](/course-goal) |
+| Add User | React app for adding users to a list | [:link: :file_folder:](/add-user) |
+| Expense Tracker | React app for keeping track of expenses | [:link: :file_folder:](/expense-tracker) |
+| Login Page UI | React app for displaying a login page and performing validation check on login information| [:link: :file_folder:](/login-page-ui) |
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---

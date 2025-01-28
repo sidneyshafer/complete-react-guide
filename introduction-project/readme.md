@@ -1,32 +1,33 @@
-## Getting Started Project
->Getting started with React apps - a simple first project.
+## Introduction Project
+>Intro to getting started with React apps - a simple first project.
 
-* [User Interface](#getting-started-ui)
-* [File Structure](#getting-started-file-structure)
-* [Full Code Breakdown](#getting-started-code-breakdown)
+* [User Interface](#introduction-ui)
+* [File Structure](#introduction-file-structure)
+* [Full Code Breakdown](#introduction-code-breakdown)
 
-> [!NOTE]
-> All examples in this section can be found in project :file_folder: [getting-started-project](/getting-started-project)
-
-### <a name="getting-started-ui">User Interface</a>
+### <a name="introduction-ui">User Interface</a>
 
 Main landing page:
 
-![UI Image - 1](/assets/getting-started-project-assets/ui-1.png)
+![UI Image - 1](./src/assets/images/ui-1.png)
 
 `Delete` button click modal page:
 
-![UI Image - 2](/assets/getting-started-project-assets/ui-2.png)
+![UI Image - 2](./src/assets/images/ui-2.png)
 
-### <a name="getting-started-file-structure">File Structure</a>
+### <a name="introduction-file-structure">File Structure</a>
 ```
-getting-started-project/
+introduction-project/
 ├── public/
     ├── index.html
     ├── favicon.ico
     ├── manifest.json
     └── robots.txt
 ├── src/
+    ├── assets/
+    |   ├── images/
+    |   |   ├── ui-1.png
+    |   |   ├── ui-2.png
     ├── components/
     |   ├── Backdrop.js
     |   ├── Modal.js
@@ -39,7 +40,7 @@ getting-started-project/
 ├── readme.md
 ```
 
-### <a name="getting-started-code-breakdown">Full Code Breakdown</a>
+### <a name="introduction-code-breakdown">Full Code Breakdown</a>
 
 > [!NOTE]
 > This section does not cover all specific code blocks in `index.js` and `App.js`. For information on code in these files that is not covered, check out the [Base React project](/00-base-react) documentation.
@@ -152,5 +153,5 @@ export default App;
 * Imports the `Todo` component.
 * Renders the title "React Todo List" and a three `Todo` components.
 
-<kbd> <br> [Back to Top](#getting-started-project) <br> </kbd>
+<kbd> <br> [Back to Top](#introduction-project) <br> </kbd>
 ---

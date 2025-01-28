@@ -5,13 +5,16 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  color: #ebe7ef;
+  background: radial-gradient(#0d1b2a, #1b263b);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #2d2834; */
-  background: radial-gradient(#27212e, #221530);
-  color: #d9c9ee;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
 }
 
 header {
@@ -38,24 +41,28 @@ header p {
 }
 
 #concepts {
-  max-width: 50rem;
+  max-width: 100%;
   margin: 2rem auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 2rem;
 }
 
 .concept {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 1rem;
-  background: linear-gradient(#250358, #440c66);
+  gap: 1.5rem;
+  /* background: linear-gradient(#250358, #440c66); */
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   padding: 1.5rem;
   border-radius: 6px;
-  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
-  width: 33%;
+  /* box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2); */
+  width: 70%;
   transition: all 0.2s
 }
 

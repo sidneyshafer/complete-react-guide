@@ -8,15 +8,15 @@
 
 Main landing page:
 
-![UI Image - 1](/assets/add-user-project-assets/ui-1.png)
+![UI Image - 1](./src/assets/images/ui-1.png)
 
 Adding a new user:
 
-![UI Image - 2](/assets/add-user-project-assets/ui-2.png)
+![UI Image - 2](./src/assets/images/ui-2.png)
 
 New user added to list of users:
 
-![UI Image - 3](/assets/add-user-project-assets/ui-3.png)
+![UI Image - 3](./src/assets/images/ui-3.png)
 
 ### <a name="add-user-file-structure">File Structure</a>
 ```
@@ -27,6 +27,11 @@ add-user-project/
     ├── manifest.json
     └── robots.txt
 ├── src/
+    ├── assets/
+    |   ├── images/
+    |   |   ├── ui-1.png
+    |   |   ├── ui-2.png
+    |   |   ├── ui-3.png
     ├── components/
     |   ├── Helpers/
     |   |   ├── Wrapper.js
