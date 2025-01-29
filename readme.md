@@ -563,9 +563,9 @@ const [state, setState] = useState(initialState);
 * `useEffect`: For managing side effects like data fetching or DOM updates.
 ```js
 useEffect(() => {
-  // Side effect logic
+  // Side effect logic here
   return () => {
-    // Cleanup logic
+    // Cleanup function (optional)
   };
 }, [dependencies]);
 ```
