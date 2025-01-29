@@ -73,8 +73,9 @@ function App() {
 export default App;
 ```
 * Renders the `StateManagementEx` component.
----
+
 > [!TIP]
-> For a [complete reference list](https://react.dev/reference/react/hooks) of built-in React hooks.
+> Check out the complete React [documentation](https://react.dev/reference/react/useState) on the built-in `useState` hook.
 
 <kbd> <br> [Back to Top](#state-management) <br> </kbd>
+---
