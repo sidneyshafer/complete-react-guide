@@ -749,7 +749,7 @@ That is where `useMemo`, `useCallback`, and `React.memo` come into place. These 
 ### <a name="performance-optimization-overview">Overview of Optimizations</a>
 
 #### `useMemo`
-The `useMemo` React Hook is used to optimize performance by **memoizing** ([caching](#caching)) the result of a function or computation, so that it is only recalculated when its dependencies change. This prevents expensive computations from running unnecessarily during every render.
+The `useMemo` React Hook is used to optimize performance by **[memoizing](#performance-optimization-memoization)** (also known as **[caching](#caching)**) the result of a function or computation, so that it is only recalculated when its dependencies change. This prevents expensive computations from running unnecessarily during every render.
 
 > [!TIP]
 > Check out the complete React [documentation](https://react.dev/reference/react/useMemo) on the built-in `useMemo` hook.
@@ -787,11 +787,11 @@ If you pass a new function reference (even with the same logic) as a prop, `Reac
 
 ### <a name="performance-optimization-memoization">Understanding Memoization</a>
 
-In React applications, **memoization** helps avoid redundant rendering of components, ultimately leading to a smoother user experience.
+**<a name="caching">Caching</a> is a technique that allows us to store a copy of a given resource and serve it back when it is requested.**
 
 Memoization is a technique used to optimize the performance of functions by **caching** the results of expensive function calls and reusing them when the same inputs occur again.
 
-**<a name="caching">Caching</a> is a technique that allows us to store a copy of a given resource and serve it back when it is requested.**
+In React applications, **memoization** helps avoid redundant rendering of components, ultimately leading to a smoother user experience.
 
 ### <a name="performance-optimization-shallow-comparison">Understanding Shallow Comparison</a>
 
