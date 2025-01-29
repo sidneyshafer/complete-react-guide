@@ -2,7 +2,7 @@
 >React app for displaying a login page and performing authentication check on login information.
 
 * [User Interface](#login-page-user-interface)
-* [File Structure](#login-page-file-structure)
+* [Project Structure](#login-page-project-structure)
 
 ### <a name="login-page-user-interface">User Interface</a>
 
@@ -18,7 +18,7 @@ Valid email input:
 
 ![UI Image - 3](./src/assets/images/ui-3.png)
 
-### <a name="login-page-file-structure">File Structure</a>
+### <a name="login-page-file-structure">Project Structure</a>
 ```
 login-page-ui/
 ├── public/

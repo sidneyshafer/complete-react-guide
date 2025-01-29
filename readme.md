@@ -1,6 +1,7 @@
 >Complete guide to building applications in React.
 
 # Table of Contents
+* [Introduction to React](#introduction-to-react)
 * [Creating a New React App](#creating-a-new-react-app)
 * [Base React App](#base-react-app)
 * [React App Usage](#react-app-usage)
@@ -15,15 +16,47 @@
 
 ---
 
-## Creating a New React App
->Instructions for creating a new React app using Node Package Manager (npm commands).
+## Introduction to React
 
+**[React](https://react.dev/)** is a JavaScript library for building user interfaces. It is developed and maintained by **Meta (Facebook)** and is widely used for creating fast, scalable, and interactive web applications.
+
+**Key Features of React**
+
+:white_check_mark: **Component-Based Architecture** – Improve maintainability with reusable components.
+
+:white_check_mark: **Declarative UI** – Describe how the UI should look, and React updates it efficiently.
+
+:white_check_mark: **Virtual DOM** – Optimizes performance by updating only necessary parts of the UI, which allows for fast rendering.
+
+:white_check_mark: **Unidirectional Data Flow** – Data flows from parent to child components, ensuring predictable state management.
+
+:white_check_mark: **Hooks & Functional Components** – Simplifies state and side-effects management without needing class components.
+
+:white_check_mark: **Strong Ecosystem** – Works well with libraries like React Router, Redux, and more, with strong community support and widespread adoption.
+
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
+---
+
+## Creating a New React App
+>Instructions for creating a new React app using [Node Package Manager (`npm`)](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager).
+
+* [Overview of Node Package Manager](#creating-new-project-npm-overview)
 * [Environment Setup](#creating-new-project-setup)
 * [Project Structure](#creating-new-project-structure)
 * [File Overview](#creating-new-project-file-overview)
 
 > [!NOTE]
 > All examples in this section can be found in project :file_folder: [new-react-app](/new-react-app)
+
+### <a name="creating-new-project-npm-overview">Overview of Node Package Manager</a>
+
+Node Package Manager (`npm`) is a package manager for JavaScript that helps developers install, manage, and share dependencies. 
+
+It is the default package manager for Node.js and is widely used in web development.
+
+This includes React applications which rely on various dependencies (`react` and `react-dom`) and other libraries for state management, routing, UI components, and more. `npm` helps in managing these dependencies efficiently.
+
+In a React environment managed by `npm`, the `node_modules` directory contains all installed `npm` packages used by the app.
 
 ### <a name="creating-new-project-setup">Environment Setup</a>
 
