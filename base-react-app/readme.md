@@ -1,5 +1,5 @@
 ## Base React App
->Basic React application used as the base structure for all projects in this guide.
+>React application used as the base structure for all projects in this guide.
 
 * [File Structure](#file-structure)
 * [Code Breakdown](#code-breakdown)

@@ -157,7 +157,7 @@ my-new-app/
 ---
 
 ## Base React App
->Basic React application used as the base structure for all projects in this guide.
+>React application used as the base structure for all projects in this guide.
 
 * [File Structure](#base-app-file-structure)
 * [Code Breakdown](#base-app-code-breakdown)
