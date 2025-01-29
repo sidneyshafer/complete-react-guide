@@ -113,7 +113,7 @@ my-new-app/
     * **`robots.txt`**
         * Tells search engine crawlers which URLs the crawler can access on your site
 > [!TIP]
-> Check out the project [documentation](/robots.txt.md) for information on the use of robots.txt.
+> Check out the project [documentation](/robots.txt.md) for information on the use of `robots.txt`.
 
 **`src`/**
 
@@ -135,14 +135,12 @@ my-new-app/
     * **`reportWebVitals.js`**
         * Used to measure performance metrics of the app.
     * **`setupTests.js`**
-        *  Allows configuration of testing environment before any tests are run.
+        * Allows configuration of testing environment before any tests are run.
         * Commonly used with testing libraries like Jest and React Testing Library.
 
 **`package.json`**
 
 * Contains metadata about the app and its dependencies.
-> [!TIP]
-> For key `npm` commands, app usage, and dependency updates, check out the React app usage [documentation](/react.usage.md).
 
 **`.gitignore`**
 
