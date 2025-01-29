@@ -6,8 +6,6 @@
 * [Base React App](#base-react-app)
 * [React App Usage](#react-app-usage)
 * [React Component Types](#react-component-types)
-  * [Functional Components](#function-components)
-  * [Class Components](#class-components)
 * [Introduction Project](#introduction-project)
 * [Overview of React Hooks](#overview-of-react-hooks)
 * [State Management](#state-management)
