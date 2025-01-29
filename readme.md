@@ -539,7 +539,7 @@ In React applications, a regular CSS file (`.css`) will apply styles globally to
 
 :rotating_light: Can lead to style conflicts if multiple components have the same class names.
 
-**Example Case Using Basic CSS Styles**
+**<ins>Example Case Using Basic CSS Styles:</ins>**
 
 The `Header.css` file:
 ```css
@@ -595,7 +595,7 @@ CSS Modules scope CSS styles to a specific component, preventing style conflicts
 
 :rotating_light: Requires a special import syntax.
 
-**Example Case Using CSS Modules**
+**<ins>Example Case Using CSS Modules:</ins>**
 
 The `Books.module.css` file:
 ```css
