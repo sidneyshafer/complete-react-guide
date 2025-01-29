@@ -18,7 +18,7 @@
 
 ## Introduction to React
 
-**[React](https://react.dev/)** is a JavaScript library for building user interfaces. It is developed and maintained by **Meta (Facebook)** and is widely used for creating fast, scalable, and interactive web applications.
+**[React](https://react.dev/)** is a JavaScript library for building user interfaces. It is developed and maintained by **[Meta (Facebook)](https://github.com/facebook)** and is widely used for creating fast, scalable, and interactive web applications.
 
 **Key Features of React**
 
@@ -32,7 +32,7 @@
 
 :white_check_mark: **Hooks & Functional Components** – Simplifies state and side-effects management without needing class components.
 
-:white_check_mark: **Strong Ecosystem** – Works well with libraries like React Router, Redux, and more, with strong community support and widespread adoption.
+:white_check_mark: **Strong Ecosystem** – Works well with libraries like **React Router**, **Redux**, and more, with **[strong community support](https://github.com/reactjs)** and widespread adoption.
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
