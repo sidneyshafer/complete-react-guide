@@ -44,7 +44,7 @@
 * [File Overview](#creating-new-project-file-overview)
 
 > [!NOTE]
-> All examples in this section can be found in project :file_folder: [new-react-app](/new-react-app)
+> All examples in this section can be found in :file_folder: [new-react-app](/new-react-app)
 
 ### <a name="creating-new-project-npm-overview">Overview of Node Package Manager</a>
 
@@ -163,7 +163,7 @@ my-new-app/
 * [Code Breakdown](#base-app-code-breakdown)
 
 > [!NOTE]
-> All examples in this section can be found in project :file_folder: [base-react-app](/base-react-app)
+> All examples in this section can be found in :file_folder: [base-react-app](/base-react-app)
 
 ### <a name="base-app-file-structure">File Structure</a>
 ```
@@ -294,7 +294,7 @@ Usage for setting up, installing, and managing the React app environment and dep
 * [Comparison of Components](#comparison-of-components)
 
 > [!NOTE]
-> All examples in this section can be found in project :file_folder: [function-class-components](/function-class-components)
+> All examples in this section can be found in :file_folder: [function-class-components](/function-class-components)
 
 ### Function Components
 
@@ -381,6 +381,9 @@ export default MyClassComponent;
 * [File Structure](#introduction-file-structure)
 * [Full Code Breakdown](#introduction-code-breakdown)
 
+> [!NOTE]
+> All examples in this section can be found in :file_folder: [introduction-project](/introduction-project)
+
 ### <a name="introduction-ui">User Interface</a>
 
 Main landing page:
@@ -419,7 +422,7 @@ introduction-project/
 ### <a name="introduction-code-breakdown">Full Code Breakdown</a>
 
 > [!NOTE]
-> This section does not cover all specific code blocks in `index.js` and `App.js`. For information on code in these files that is not covered, check out the [Base React project](/00-base-react) documentation.
+> This section does not cover all specific code blocks in `index.js` and `App.js`. Check out the :file_folder: [base-react-app](/base-react-app) for information on code not covered in this section.
 
 ---
 **The `Backdrop.js` File:**
@@ -506,7 +509,7 @@ export default Todo;
 
 
 > [!TIP]
-> Check out the [State Management](/state-management/readme.md) section for more information on state in React applications.
+> Check out the :file_folder: [state-management](/state-management/readme.md) section for more information on state usage in React applications.
 
 ---
 **The `App.js` File:**
@@ -640,7 +643,7 @@ function useFetch(url) {
 * [Example With useState](#example-with-usestate)
 
 > [!NOTE]
-> All examples in this section can be found in project :file_folder: [state-management](/state-management)
+> All examples in this section can be found in :file_folder: [state-management](/state-management)
 
 ### State Management Overview
 
@@ -728,6 +731,9 @@ export default App;
 * [Basic Syntax of React.memo](#performance-optimization-basic-syntax-of-reactmemo)
 * [Changes to Default Rendering Behavior](#performance-optimization-default-behavior-changes)
 * [Project Structure](#performance-optimization-project-structure)
+
+> [!NOTE]
+> All examples in this section can be found in :file_folder: [performance-optimization](/performance-optimization)
 
 ### <a name="performance-optimization-default-behavior">Default Rendering Behavior</a>
 
