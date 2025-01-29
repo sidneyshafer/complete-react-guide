@@ -377,24 +377,12 @@ export default MyClassComponent;
 ## Introduction Project
 >Intro to getting started with React apps - a simple first project.
 
-* [User Interface](#introduction-ui)
 * [File Structure](#introduction-file-structure)
 * [Full Code Breakdown](#introduction-code-breakdown)
 
 > [!NOTE]
 > All examples in this section can be found in :file_folder: [introduction-project](/introduction-project)
 
-### <a name="introduction-ui">User Interface</a>
-
-Main landing page:
-
-![UI Image - 1](/introduction-project/src/assets/images/ui-1.png)
-
-`Delete` button click modal page:
-
-![UI Image - 2](/introduction-project/src/assets/images/ui-2.png)
-
-### <a name="introduction-file-structure">File Structure</a>
 ```
 introduction-project/
 ├── public/
