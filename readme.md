@@ -1,16 +1,16 @@
 >Complete guide to building applications in React.
 
 # Table of Contents
-* [Introduction to React](#introduction-to-react)
-* [Creating a New React App](#creating-a-new-react-app)
-* [Base React App](#base-react-app)
-* [React App Usage](#react-app-usage)
-* [React Component Types](#react-component-types)
-* [Introduction Project](#introduction-project)
-* [Overview of React Hooks](#overview-of-react-hooks)
-* [State Management](#state-management)
-* [Performance Optimization](#performance-optimization)
-* [All React Demo Projects](#all-react-demo-projects)
+* **[Introduction to React](#introduction-to-react)**
+* **[Creating a New React App](#creating-a-new-react-app)**
+* **[Base React App](#base-react-app)**
+* **[React App Usage](#react-app-usage)**
+* **[React Component Types](#react-component-types)**
+* **[Introduction Project](#introduction-project)**
+* **[Overview of React Hooks](#overview-of-react-hooks)**
+* **[State Management](#state-management)**
+* **[Performance Optimization](#performance-optimization)**
+* **[All React Demo Projects](#all-react-demo-projects)**
 
 ---
 
