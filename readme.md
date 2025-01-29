@@ -3,8 +3,8 @@
 # Table of Contents
 * **[Introduction to React](#introduction-to-react)**
 * **[Creating a New React App](#creating-a-new-react-app)**
-* **[Base React App](#base-react-app)**
 * **[React App Usage](#react-app-usage)**
+* **[Base React App](#base-react-app)**
 * **[React Component Types](#react-component-types)**
 * **[Introduction Project](#introduction-project)**
 * **[Overview of React Hooks](#overview-of-react-hooks)**
@@ -157,6 +157,13 @@ my-new-app/
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
+## React App Usage
+
+Usage for setting up, installing, and managing the React app environment and dependencies is outlined in the React application usage [documentation](/react.usage.md). 
+
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
+---
+
 ## Base React App
 >React application used as the base structure for all projects in this guide.
 
@@ -275,13 +282,6 @@ In summary, the `App.js` component:
 
 > [!TIP]
 > Check out the React [app usage documentation](/react.usage.md) for information on basic app usage in this project.
-
-<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
----
-
-## React App Usage
-
-Usage for setting up, installing, and managing the React app environment and dependencies is outlined in the React App Usage [documentation](/react.usage.md). 
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
