@@ -1,9 +1,20 @@
 ## Creating a New React App
->Instructions for creating a new React app using Node Package Manager (npm commands).
+>Instructions for creating a new React app using **[Node Package Manager (`npm`)](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)**.
 
+* [Overview of Node Package Manager](#creating-new-project-npm-overview)
 * [Environment Setup](#creating-new-project-setup)
 * [Project Structure](#creating-new-project-structure)
 * [File Overview](#creating-new-project-file-overview)
+
+### <a name="creating-new-project-npm-overview">Overview of Node Package Manager</a>
+
+Node Package Manager (`npm`) is a package manager for JavaScript that helps developers install, manage, and share dependencies. 
+
+It is the default package manager for **[Node.js](https://nodejs.org/en)** and is widely used in web development.
+
+This includes React applications which rely on various dependencies (`react` and `react-dom`) and other libraries for state management, routing, UI components, and more. `npm` helps in managing these dependencies efficiently.
+
+In a React environment managed by `npm`, the `node_modules` directory contains all installed `npm` packages used by the app.
 
 ### <a name="creating-new-project-setup">Environment Setup</a>
 
