@@ -50,7 +50,7 @@
 
 Node Package Manager (`npm`) is a package manager for JavaScript that helps developers install, manage, and share dependencies. 
 
-It is the default package manager for Node.js and is widely used in web development.
+It is the default package manager for **[Node.js](https://nodejs.org/en)** and is widely used in web development.
 
 This includes React applications which rely on various dependencies (`react` and `react-dom`) and other libraries for state management, routing, UI components, and more. `npm` helps in managing these dependencies efficiently.
 
