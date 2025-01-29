@@ -38,7 +38,7 @@
 ---
 
 ## Creating a New React App
->Instructions for creating a new React app using [Node Package Manager (`npm`)](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager).
+>Instructions for creating a new React app using **[Node Package Manager (`npm`)](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)**.
 
 * [Overview of Node Package Manager](#creating-new-project-npm-overview)
 * [Environment Setup](#creating-new-project-setup)
