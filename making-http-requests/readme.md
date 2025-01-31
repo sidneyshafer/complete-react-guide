@@ -90,7 +90,7 @@ async function fetchPost() {
 ### <a name="making-http-requests-to-star-wars-api">Making a Request to [The Star Wars API](https://swapi.dev/)</a>
 
 > [!NOTE]
-> All Star Wars data at [https://swapi.dev/ :arrow_upper_right:](https://swapi.dev/)
+> All Star Wars data at [https://swapi.dev/](https://swapi.dev/) :arrow_upper_right:
 
 #### The `App.js` File
 
