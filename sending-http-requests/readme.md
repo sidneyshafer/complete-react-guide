@@ -1,4 +1,4 @@
-## Making HTTP Requests
+## Sending HTTP Requests
 
 * [Overview of HTTP Requests in React](#making-http-requests-overview)
 * [Understanding Asynchronous Requests in JavaScript](#making-http-requests-asynchronous-ops)
@@ -260,5 +260,5 @@ export default App;
 ```
 * Makes `App` available for use in `index.js` (or any other part of the app).
 
-<kbd> <br> [Back to Top](#making-http-requests) <br> </kbd>
+<kbd> <br> [Back to Top](#sending-http-requests) <br> </kbd>
 ---

@@ -12,7 +12,7 @@
 * **[State Management](#state-management)**
 * **[React Side Effects](#react-side-effects)**
 * **[Performance Optimization](#performance-optimization)**
-* **[Making HTTP Requests](#making-http-requests)**
+* **[Sending HTTP Requests](#sending-http-requests)**
 * **[All React Demo Projects](#all-react-demo-projects)**
 
 ---
@@ -1190,7 +1190,7 @@ performance-optimization/
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
-## Making HTTP Requests
+## Sending HTTP Requests
 
 * [Overview of HTTP Requests in React](#making-http-requests-overview)
 * [Understanding Asynchronous Requests in JavaScript](#making-http-requests-asynchronous-ops)
