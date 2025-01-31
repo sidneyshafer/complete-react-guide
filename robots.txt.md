@@ -2,13 +2,15 @@
 
 ### Overview
 
-The `robots.txt` file is a plain text file used to give instructions to web crawlers (robots or bots) about **which parts of a website they are allowed to crawl and index**. It is part of the **Robots Exclusion Protocol** and is commonly placed in the root directory of a website.
+The `robots.txt` file is part of the **Robots Exclusion Protocol** and is commonly placed in the root directory of a website.
 
-This file provides control of search engine behavior by specifying which pages or sections of a site to include or exclude from their indexes. Furthermore, this can stop bots from accessing or indexing non-public or sensitive areas, such as admin pages or scripts.
+ It is a plain text file used to give instructions to web crawlers (robots or bots) about **which parts of a website they are allowed to crawl and index**.
+
+By specifying pages or sections of a site to include or exclude from search engine indexes, the `robots.txt` file can stop bots from accessing or indexing non-public or sensitive areas, such as admin pages or scripts.
 
 Search engine optimization is improved by specifying important and relevant pages to crawl, rather than wasting resources on unimportant or duplicate content.
 
-Temporary blocking can be enabled during development to prevent incomplete or work-in-progress sites from being indexed.
+Temporary blocking can also be enabled during development to prevent incomplete or work-in-progress sites from being indexed.
 
 The `robots.txt` file **does not enforce restrictions**; it relies on bots voluntarily adhering to the rules. <ins>Malicious bots can still ignore it</ins>.
 
