@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-
 import MoviesList from './components/MoviesList';
 import './App.css';
 
