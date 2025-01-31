@@ -157,7 +157,7 @@ my-new-app/
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
 
-## React App Usage
+## :pushpin: React App Usage
 
 Usage for setting up, installing, and managing the React app environment and dependencies is outlined in the React application usage [documentation](/react.usage.md). 
 
