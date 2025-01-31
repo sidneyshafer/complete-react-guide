@@ -105,15 +105,15 @@ my-new-app/
 * Contains static assets and the root HTML file for the app.
     * **`index.html`**
         * Main HTML file where the React app is mounted.
-        * The `<div id="root"></div>` tag acts as the entry point for React to inject the app.
+        * The `<div id="root"></div>` element acts as the entry point for React to inject the app.
         * You can add meta tags, external scripts, or other HTML configurations here.
     * **`logo192.png`** *and* **`logo512.png`**
         * Logos displaying the specific React symbol (these are usually discarded).
     * **`favicon.ico`** *and* **`manifest.json`**
-        * Provide metadata for the app.
+        * Used to provide metadata for the app.
         * The `favicon` is used as the small icon displayed in a browser tab.
     * **`robots.txt`**
-        * Tells search engine crawlers which URLs the crawler can access on your site
+        * Tells search engine crawlers which URLs the crawler can access on your site.
 > [!TIP]
 > Check out the project [documentation](/robots.txt.md) for information on the use of `robots.txt`.
 
@@ -146,8 +146,8 @@ my-new-app/
 
 **`.gitignore`**
 
-* A configuration file that specifies which files and directories Git should ignore in version control. 
-* These often include `node_modules`, `package-lock.json`, `.DS_Store`, etc.
+* Configuration file that specifies which files and directories Git should ignore in version control. 
+* These often include `node_modules`, `.DS_Store`, production files, etc.
 
 **`README.md`**
 
@@ -216,11 +216,11 @@ root.render(<App />);
 ```
 `// import React from 'react';`
 * Imports the core React library, which is needed to use JSX (JavaScript XML) and create React components.
-* Starting from release 17, however, you no longer need this statement.
+* Starting from **release 17**, however, <ins>you no longer need this statement</ins>.
 
 `import ReactDOM from 'react-dom/client';`
 * `ReactDOM` is a library that interacts with the DOM to render React components.
-* `react-dom/client` is a new way (starting from React 18) to manage rendering in React apps, replacing ReactDOM.render
+* `react-dom/client` is a new way (**starting from React 18**) to manage rendering in React apps, replacing `ReactDOM.render`.
 
 `import './index.css';`
 * Imports the global CSS file for the app.
@@ -230,7 +230,7 @@ root.render(<App />);
 * The `App` component is typically where the main structure and logic of the app reside.
 
 `const root = ReactDOM.createRoot(document.getElementById('root'));`
-* This selects the root DOM element with the `id="root"` (defined in `public/index.html`) and creates a React root using ReactDOM.createRoot.
+* This selects the root DOM element with the `id="root"` (defined in `public/index.html`) and creates a React root using `ReactDOM.createRoot`.
 * The `root` serves as the entry point for the React application, allowing React to manage the DOM within this element.
 * In the `index.html` file, this is the target DOM element where the entire React app will be mounted:
     ```html
@@ -267,8 +267,8 @@ export default App;
 * In this case, it returns a `<div>` element containing an `<h2>` element.
 
 `<div>` and `<h2>`
-* These are JSX elements that look similar to HTML but are actually JavaScript objects under the hood.
-* JSX allows you to write markup directly within your JavaScript code and is then transformed into React elements during compilation.
+* These are **JSX elements** that look similar to HTML but are actually JavaScript objects under the hood.
+* JSX allows you to write markup directly within your JavaScript code, which is then transformed into React elements during compilation.
 
 `export default App;`
 * This exports the `App` component as the default export of the file.
