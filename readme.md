@@ -1248,6 +1248,8 @@ function fetchData() {
 ```
 * Promises resolved the issue of callback hell.
 
+---
+
 3. **Async/Await (Modern Syntax for Promises)**
 * The `async` and `await` keywords simplify working with Promises.
 ```js
