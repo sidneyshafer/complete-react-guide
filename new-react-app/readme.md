@@ -6,6 +6,8 @@
 * [Project Structure](#creating-new-project-structure)
 * [File Overview](#creating-new-project-file-overview)
 
+---
+
 ### <a name="creating-new-project-npm-overview">Overview of Node Package Manager</a>
 
 Node Package Manager (`npm`) is a package manager for JavaScript that helps developers install, manage, and share dependencies. 
@@ -62,15 +64,15 @@ my-new-app/
 * Contains static assets and the root HTML file for the app.
     * **`index.html`**
         * Main HTML file where the React app is mounted.
-        * The `<div id="root"></div>` tag acts as the entry point for React to inject the app.
+        * The `<div id="root"></div>` element acts as the entry point for React to inject the app.
         * You can add meta tags, external scripts, or other HTML configurations here.
     * **`logo192.png`** *and* **`logo512.png`**
         * Logos displaying the specific React symbol (these are usually discarded).
     * **`favicon.ico`** *and* **`manifest.json`**
-        * Provide metadata for the app.
+        * Used to provide metadata for the app.
         * The `favicon` is used as the small icon displayed in a browser tab.
     * **`robots.txt`**
-        * Tells search engine crawlers which URLs the crawler can access on your site
+        * Tells search engine crawlers which URLs the crawler can access on your site.
 > [!TIP]
 > Check out the project [documentation](/robots.txt.md) for information on the use of `robots.txt`.
 
@@ -103,8 +105,8 @@ my-new-app/
 
 **`.gitignore`**
 
-* A configuration file that specifies which files and directories Git should ignore in version control. 
-* These often include `node_modules`, `package-lock.json`, `.DS_Store`, etc.
+* Configuration file that specifies which files and directories Git should ignore in version control. 
+* These often include `node_modules`, `.DS_Store`, production files, etc.
 
 **`README.md`**
 
