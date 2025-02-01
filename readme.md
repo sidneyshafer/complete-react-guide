@@ -116,7 +116,7 @@ my-new-app/
     * **`robots.txt`**
         * Tells search engine crawlers which URLs the crawler can access on your site.
 > [!TIP]
-> Check out the project [documentation](/robots.txt.md) for information on the use of `robots.txt`.
+> :pushpin: Check out the project [documentation](/robots.txt.md) for information on the use of `robots.txt`.
 
 **`src`/**
 
