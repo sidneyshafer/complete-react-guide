@@ -1,0 +1,36 @@
+.resultsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 10%;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.btn {
+    width: 7rem;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: inherit;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 2px solid #00a6cf78;
+    background-color: #253237;
+    color: rgba(225, 225, 225, 0.5);
+    cursor: pointer;
+}
+  
+.btn:hover {
+    border-color: #00a5cf;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.clearBtn {
+    margin-right: 0;
+}
