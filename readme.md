@@ -1547,6 +1547,8 @@ export default App;
 | Login Page UI | Displaying a login page and performing validation on user input | [:link::file_folder:](/login-page-ui) |
 | Food Order App | Adding menu items to an online food order cart | [:link::file_folder:](/food-order-app) |
 | Pokemon Cards | Sending HTTP requests to **pokeapi** for fetching and displaying Pokemon data | [:link::file_folder:](/pokemon-cards) |
+| Book Finder V1 | For searching books through the Open Library API | [:link::file_folder:](/book-finder) |
+| Book Finder V2 | Book search through the Open Library API with React Router | [:link::file_folder:](/book-finder-with-router) |
 
 <kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
 ---
