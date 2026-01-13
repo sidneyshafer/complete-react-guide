@@ -8,9 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "mongodb": "^5.7.0",
-    "next": "^13.4.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "mongodb": "^7.0.0",
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   }
 }
