@@ -4,13 +4,13 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
